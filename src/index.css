@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --priColor1: #323B4C;
+  --priColor2: #828282;
+  --secColor1: #9FE2F0;
+  --secColor2: #C9EEFF;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font-family: 'Avenir Next Cyr';
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: var(--priColor1);
+}
+
+.app {
+  height: 297mm;
+  width: 210mm;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.app-child {
+  padding: 20px;
+}
+
+.box-shadow-1 {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.home .title{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.template-card-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.template-card {
+  padding: 20px 30px;
+  transition: background-color 0.3s ease;
+  transition: transform 0.15s ease;
+}
+
+.template-card:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+  background-color: var(--secColor2);
 }
