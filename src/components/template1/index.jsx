@@ -7,7 +7,7 @@ import Projects from './Projects'
 import './css.js';
 import { css } from './css.js'
 
-const Template1 = () => {
+const Template1 = ({data}) => {
     return (
         <>
             <style>{css}</style>

@@ -1,18 +1,20 @@
+import { resume } from "./resume";
+
 export const contacts = [
     {
-        value: 'omanshumahawar1234@gmail.com',
-        url: 'mailto:omanshumahawar1234@gmail.com'
+        value: resume.basics.email,
+        url: `mailto:${resume.basics.email}`
     },
     {
-        value: '8209104660',
-        url: 'tel:918209104660'
+        value: resume.basics.phone,
+        url: `tel:91$${resume.basics.phone}`
     },
     {
         value: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/omanshumahawar/'
+        url: `https://www.${resume.basics.linkedIn}`
     },
     {
-        value: 'omanshu840.github.io',
-        url: 'https://omanshu840.github.io/'
+        value: resume.basics.website,
+        url: `https://${resume.basics.website}`
     }
 ]

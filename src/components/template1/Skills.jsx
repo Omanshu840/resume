@@ -1,17 +1,17 @@
 import React from 'react'
 import SectionHeader from './SectionHeader'
-import { skills } from '../../data/skills'
+import { resume } from '../../data/resume'
 
 const Skills = () => {
     return (
         <div>
             <SectionHeader title={"Skills"}/>
             <div className='skills-container'>
-                {skills.map((item, id) => (
+                {resume.skills.map((item, id) => (
                     <div key={id} className='skill-category-container'>
-                        <div className='skill-category'>{item.category}:</div>
+                        <div className='skill-category'>{item.name}:</div>
                         <div className='category-skills-container'>
-                            {item.skills.map((skill, sId) => (
+                            {item.keywords.map((skill, sId) => (
                                 <div key={sId} className='skill'>{skill}</div>
                             ))}
                         </div>

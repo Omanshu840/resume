@@ -1,3 +1,4 @@
+export const css = `
 .mb-1 {
     margin-bottom: 5px;
 }
@@ -10,33 +11,40 @@
     text-transform: uppercase;
 }
 
+.header .title  {
+    color: var(--priColor2);
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
 .contact {
     display: flex;
     justify-content: center;
     column-gap: 10px;
 }
 
-.contact a:link {
-    color: black;
-    text-decoration: none;
+a:link {
+    color: var(--priColor1);
+    text-decoration: underline;
 }
 
-.contact a:visited {
-    color: gray;
+a:visited {
+    color: var(--priColor1);
 }
 
-.contact a:hover {
+a:hover {
     color: lightgray;
 }
 
-.contact a:active {
+a:active {
     color: #ff4040;
     text-decoration: none;
     font-weight: normal;
 }
 
 .section-header {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 18px;
     font-weight: 600;
     display: flex;
@@ -93,14 +101,18 @@
     margin-right: 8px;
 }
 
+.description-container .description {
+    flex-basis: fit-content;
+}
+
 .skill-category-container {
     display: flex;
-    margin-top: 5px;
+    margin-top: 3px;
     align-items: center;
 }
 
 .skill-category {
-    width: 200px;
+    width: 190px;
     font-weight: 500;
 }
 
@@ -111,6 +123,7 @@
 
 .skill {
     border-radius: 5px;
-    padding: 3px 10px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    padding: 2px 5px;
+    border: 0.5px solid var(--priColor2);
 }
+`

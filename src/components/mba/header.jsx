@@ -25,6 +25,10 @@ const Header = ({resume}) => {
                 <a href={`https://${resume.basics.website}`}>
                     {resume.basics.website}
                 </a>
+                {"|"}
+                <div>
+                    India
+                </div>
             </div>
         </div>
     )

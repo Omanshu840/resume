@@ -9,7 +9,7 @@ const Home = () => {
             <h1 className='title'>Resume</h1>
             <div className='template-card-container'>
                 {templates.map((template, index) => (
-                    <div className='template-card box-shadow-1' onClick={() => navigate(`${basePath}/${index+1}`)}>
+                    <div className='template-card box-shadow-1' onClick={() => navigate(`${basePath}/${index+1}/Company`)}>
                         {template.name}
                     </div>
                 ))}

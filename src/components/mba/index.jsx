@@ -1,15 +1,16 @@
 import React, { useState } from 'react'
-import Header from './header'
+import Header from './header.jsx'
 import './css.js';
-import Education from './education';
-import Experience from './experience';
-import Skills from './skills';
-import Projects from './projects';
-import Leadership from './leadership';
+import Education from './education.jsx';
+import Experience from './experience.jsx';
+import Skills from './skills.jsx';
+import Projects from './projects.jsx';
+import Leadership from './leadership.jsx';
 import { css } from './css.js';
 import parseMin from 'parse/dist/parse.min.js';
+import Section from './section.jsx';
 
-const Template2 = ({data, showSaveButton}) => {
+const MBATemplate = ({data, showSaveButton}) => {
     const [company, setCompany] = useState("");
 
     const onSave = async () => {
@@ -27,8 +28,15 @@ const Template2 = ({data, showSaveButton}) => {
             <Experience resume={data}/>
             <Education resume={data}/>
             <Skills resume={data}/>
-            <Projects resume={data}/>
             <Leadership resume={data}/>
+            
+            <div>
+                <Section title={data.headings.extracurricular} items={data.extracurricular} isSingleLine={true}/>
+            </div>
+
+            <div>
+                <Section title={data.headings.volunteering} items={data.volunteering} isSingleLine={true}/>
+            </div>
 
             {showSaveButton && 
                 <div style={{marginTop: '100px'}}>
@@ -40,4 +48,4 @@ const Template2 = ({data, showSaveButton}) => {
     )
 }
 
-export default Template2
+export default MBATemplate

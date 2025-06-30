@@ -1,21 +1,17 @@
 import React, { useState } from 'react'
-import Header from './header'
+import Header from './header.jsx'
+import Parse from 'parse/dist/parse.min.js';
 import './css.js';
-import Education from './education';
-import Experience from './experience';
-import Skills from './skills';
-import Projects from './projects';
-import Leadership from './leadership';
+import Experience from './experience.jsx';
 import { css } from './css.js';
-import parseMin from 'parse/dist/parse.min.js';
 
-const Template2 = ({data, showSaveButton}) => {
+const CoverLetterTemplate2 = ({data, showSaveButton}) => {
     const [company, setCompany] = useState("");
 
     const onSave = async () => {
-        const Resume = new parseMin.Object('Resume');
+        const Resume = new Parse.Object('Resume');
         Resume.set('Company', company);
-        Resume.set('Type', "RESUME");
+        Resume.set('Type', "COVER_LETTER");
         Resume.set('Data', JSON.stringify(data));
         await Resume.save();
     }
@@ -25,10 +21,6 @@ const Template2 = ({data, showSaveButton}) => {
             <style>{css}</style>
             <Header resume={data}/>
             <Experience resume={data}/>
-            <Education resume={data}/>
-            <Skills resume={data}/>
-            <Projects resume={data}/>
-            <Leadership resume={data}/>
 
             {showSaveButton && 
                 <div style={{marginTop: '100px'}}>
@@ -40,4 +32,4 @@ const Template2 = ({data, showSaveButton}) => {
     )
 }
 
-export default Template2
+export default CoverLetterTemplate2;

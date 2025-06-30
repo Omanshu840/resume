@@ -1,13 +1,12 @@
 import React from 'react'
-import SectionHeader from './sectionHeader'
-import { resume } from '../../data/resume'
+import SectionHeader from './sectionHeader';
 
-const Leadership = () => {
+const Leadership = ({resume}) => {
     return (
         <div className='leadership'>
             <SectionHeader title={resume.headings.awards}/>
             {resume.awards.map(item => (
-                <div className='record-container' style={{marginTop: '10px'}}>
+                <div className='record-container'>
                 <div className='title'>
                     <div>{item.title}</div>
                     <div className='time-line'>{item.awarder}</div>

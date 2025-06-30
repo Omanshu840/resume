@@ -6,5 +6,5 @@ export const templates = [
     },
     {
         name: "Template 2"
-    }
+    },
 ]

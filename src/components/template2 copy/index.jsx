@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import Header from './header'
+import Header from './header.jsx'
 import './css.js';
-import Education from './education';
-import Experience from './experience';
-import Skills from './skills';
-import Projects from './projects';
-import Leadership from './leadership';
+import Education from './education.jsx';
+import Experience from './experience.jsx';
+import Skills from './skills.jsx';
+import Projects from './projects.jsx';
+import Leadership from './leadership.jsx';
 import { css } from './css.js';
 import parseMin from 'parse/dist/parse.min.js';
 

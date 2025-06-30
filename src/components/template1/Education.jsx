@@ -1,6 +1,6 @@
 import React from 'react'
 import SectionHeader from './SectionHeader'
-import { education } from '../../data/education'
+import { resume } from '../../data/resume'
 
 
 const Education = () => {
@@ -8,15 +8,15 @@ const Education = () => {
         <div className='education'>
             <SectionHeader title={"Education"}/>
             <div>
-                {education.map((data, id) => (
+                {resume.education.map((data, id) => (
                     <div key={id} className='education-item'>
                         <div className='education-left-container'>
-                            <div className='item-title'>{data.degree}</div>
-                            <div className='item-subtitle'>{data.institute}</div>
+                            <div className='item-title'>{data.studyType} in {data.area}</div>
+                            <div className='item-subtitle'>{data.institution}</div>
                         </div>
                         <div className='education-right-container'>
                             <div className='education-date'>{data.startDate} - {data.endDate}</div>
-                            <div className='grade'>{data.grade}</div>
+                            <div className='grade'>{data.gpa}</div>
                         </div>
                     </div>
                 ))}
