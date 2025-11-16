@@ -13,7 +13,7 @@ export const css = `
 
 .header .title  {
     color: var(--priColor2);
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 5px;
     font-weight: 500;
 }
@@ -44,7 +44,7 @@ a:active {
 }
 
 .section-header {
-    margin-top: 14px;
+    margin-top: 18px;
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: 600;
