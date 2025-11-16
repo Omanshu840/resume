@@ -12,64 +12,59 @@ export const mba_resume = {
         name: "Omanshu Mahawar",
         title: "Senior Software Engineer",
         email: "omahawar840@gmail.com",
-        location: {
-            address: "",
-        },
+        location: { address: "" },
         phone: "+918209104660",
         website: "omanshu840.github.io",
         linkedIn: "linkedin.com/in/omanshumahawar",
     },
     education: [
         {
-            location: "",
+            studyType: "B.Tech",
             area: "Computer Science and Engineering",
-            startDate: "July 2018",
-            endDate: "May 2022",
-            gpa: "GPA - 8.73",
             institution:
                 "National Institute of Technology Karnataka, Surathkal",
-            studyType: "B.Tech",
+            startDate: "Jul 2018",
+            endDate: "May 2022",
+            gpa: "8.73 / 10",
         },
         {
-            institution: "Jankidevi Public School, Jaipur",
-            studyType: "CBSE 12th",
+            studyType: "High School Diploma",
             area: "Science and Mathematics with Information Practices",
-            gpa: "92.8%",
-            startDate: "April 2017",
+            institution: "Jankidevi Public School, Jaipur",
+            startDate: "Apr 2016",
             endDate: "May 2018",
+            gpa: "92.8%",
         },
     ],
     work: [
         {
-            location: "",
             position: "Senior Software Engineer",
-            website: "",
+            company: "Visa Inc",
+            startDate: "Mar 2024",
             endDate: "Present",
             highlights: [
-                `Leading and mentoring a team of 6 in developing core payment products such as Accepting Payments, Fraud Prevention Settings, and Billing Modules for <a href="https://www.authorize.net" target="_blank">Authorize.NET</a>, enhancing user experience and system scalability.`,
-                `Serving as the Primary Technical Lead for critical ASP.NET services and REST APIs, maintaining high security standards and system reliability.`,
+                "Led and mentored a 6-member scrum team, streamlining workflows and fostering collaboration to reduce sprint spillovers by 20% while delivering secure backend services and payment features for Authorize.NET 2.0.",
+                "Served as Primary Technical Lead for mission-critical ASP.NET services and REST APIs, achieving 99.99% uptime while upholding stringent security and scalability standards.",
             ],
-            company: "Visa Inc",
-            startDate: "March 2024",
         },
         {
-            highlights: [
-                `Led system improvements for Visa Rapid Onboarding (VRO) using Vert.x, including integration with Eloqua APIs and resolution of data replication race conditions, improving user reliability.`,
-                `Spearheaded the development of Authorize.NET 2.0 by building a responsive React UI and scalable C# REST controllers, improving performance and maintainability of the financial platform.`,
-            ],
-            company: "Visa Inc",
             position: "Software Engineer",
-            startDate: "June 2022",
+            company: "Visa Inc",
+            startDate: "Jun 2022",
             endDate: "Feb 2024",
+            highlights: [
+                "Optimized Visa Rapid Onboarding by integrating Eloqua APIs and resolving race conditions in data replication, improving reliability and data consistency.",
+                "Spearheaded development of Authorize.NET 2.0 with a responsive React UI and scalable C# REST controllers, reducing page load times by 40%.",
+            ],
         },
         {
-            highlights: [
-                `Collaborated with the supply team to enhance the Homes and Villas by Marriott International (HVMI) platform by improving the Operations Portal with detailed user activity logs for better audit trails.`,
-            ],
-            company: "Publicis Sapient",
             position: "Software Engineer Intern",
+            company: "Publicis Sapient",
             startDate: "May 2021",
-            endDate: "July 2021",
+            endDate: "Jul 2021",
+            highlights: [
+                "Enhanced Marriott International’s HVMI Operations Portal with advanced activity logging, enabling 100% traceability for audits and operational decision-making.",
+            ],
         },
     ],
     skills: [
@@ -77,7 +72,7 @@ export const mba_resume = {
             name: "Technical Skills",
             keywords: [
                 "Java",
-                "Javascript",
+                "JavaScript",
                 "C#",
                 "HTML",
                 "CSS",
@@ -108,59 +103,63 @@ export const mba_resume = {
     ],
     awards: [
         {
-            summary: "Led the development of core payment features and secure backend services for Authorize.NET, enhancing scalability, user experience, and system reliability.",
             title: "Team Lead",
-            organization: "Visa Inc"
-        },
-        {
+            organization: "Visa Inc",
+            startDate: "Sep 2024",
+            endDate: "Present",
             summary:
-                "Led a team of 60+ to organize HackVerse 3.0, a 24-hour nationwide hackathon with 2800+ participants from top institutes, managing logistics, sponsorship, and outreach.",
-            title: "Lead Organizer",
-            organization: "HackVerse 3.0",
+                "Led a 6-member development team and mentored an intern to deliver payment features and secure backend services for Authorize.NET, significantly improving scalability and user experience.",
         },
         {
-            title: "Media & Website Head",
+            title: "Website & Media Head",
             organization: "The Institution of Engineers, NITK",
+            startDate: "May 2021",
+            endDate: "Apr 2022",
             summary:
-                "Led a team of 6 to deploy and maintain the club’s full-stack Django website, hosted on a Linux server using Gunicorn, Nginx, and PostgreSQL.",
+                "Led a 6-member tech team to build and maintain the club's website on Linux, reducing deployment time by 50%.",
+        },
+        {
+            title: "Media Coordinator",
+            organization: "HackVerse, NITK",
+            startDate: "Aug 2020",
+            endDate: "Aug 2021",
+            summary:
+                "Managed digital promotions across multiple channels, increasing event registrations by 35% for a nationwide hackathon.",
         },
     ],
     volunteering: [
         {
+            organization: "GiftAbled Foundation",
+            title: "Eco-Friendly School Kits",
+            startDate: "July 2025",
+            summary:
+                "Participated in a corporate block-printing workshop to create eco-friendly school kits, contributing to sustainability initiatives.",
+        },
+        {
             organization: "Avyang Foundation",
             title: "Event Support Volunteer",
             startDate: "June 2025",
-            endDate: "June 2025",
             summary:
-                "Supported and coordinated a community engagement event at an old age home in Bengaluru, contributing to the successful execution of a planter-making activity for elderly residents.",
+                "Organized planter-making sessions for 30+ senior residents, fostering creativity and community bonding.",
         },
         {
-            organization: "HackVerse 2.0",
-            title: "Media Coordinator",
-            startDate: "June 2021",
-            endDate: "Aug 2021",
+            organization: "Friends in Need Society",
+            title: "Elder Care Volunteer",
+            startDate: "June 2025",
             summary:
-                "Collaborated with design, content, and marketing teams to drive participant engagement and visibility through digital promotions for HackVerse 2.0, a national 24-hour hackathon.",
-        },
-        {
-            organization: "The Institution of Engineers, NITK",
-            title: "Executive Member",
-            startDate: "Aug 2020",
-            endDate: "May 2022",
-            summary:
-                "Organized technical workshops, industry speaker sessions, and outreach initiatives; contributed to web and content management activities.",
+                "Supported daily care tasks and provided companionship to elderly residents, enhancing well-being and engagement.",
         },
     ],
     extracurricular: [
         {
             title: "Guitar & Content Creation",
             summary:
-                "Maintain a personal YouTube channel where I upload guitar covers, combining my passion for music with digital creativity.",
+                "Produced guitar covers and digital music content on a personal YouTube channel, attracting 4,500+ cumulative views.",
         },
         {
             title: "Cycling & Fitness",
             summary:
-                "Avid cyclist exploring routes in and around Bangalore. Passionate about endurance riding and using outdoor exploration as a means of fitness and mindfulness.",
+                "Completed 20–30 km endurance cycling routes around Bangalore, integrating fitness with outdoor exploration and discipline.",
         },
     ],
     sections: [
@@ -173,5 +172,4 @@ export const mba_resume = {
         "volunteering",
         "extracurricular",
     ],
-}
-
+};

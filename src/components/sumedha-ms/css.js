@@ -7,13 +7,13 @@ export const css = `
 }
 
 .header .name {
-    font-size: 32px;
+    font-size: 25px;
     text-transform: uppercase;
 }
 
 .header .title  {
     color: var(--priColor2);
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 5px;
     font-weight: 500;
 }

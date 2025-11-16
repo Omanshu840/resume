@@ -37,7 +37,7 @@ const Section = ({ title, items, isSingleLine = false }) => {
                         <div className="title">{item.title}</div>
                         <div className="organization">{item.organization}</div>
                     </div>
-                    <div className="summary">{item.summary}</div>
+                    <div className='summary' dangerouslySetInnerHTML={{ __html: item.summary }} />
                     {item.startDate && (
                     <div className='time-line'>{item.startDate} {item.endDate ? ` - ${item.endDate}` : ""}</div>
                     )}

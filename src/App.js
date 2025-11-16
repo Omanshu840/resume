@@ -12,6 +12,8 @@ import CoverLetterTemplate2 from './components/cover-letter/Template2';
 import { coverLetter } from './data/cover-letter';
 import { mba_resume } from './data/mba-resume';
 import MBATemplate from './components/mba';
+import SumedhaMSTemplate from './components/sumedha-ms';
+import { sumedha_ms } from './data/sumedha-ms';
 
 const PARSE_APPLICATION_ID = 'il2ZrwdroDrghevfubRT5U3BVBKSJhoNuMdrTXdn';
 const PARSE_HOST_URL = 'https://parseapi.back4app.com/';
@@ -57,6 +59,10 @@ const App = () => {
                         <Route
                             path={basePath+'/MBA'}
                             element={<MBATemplate data={mba_resume} showSaveButton={false}/>}
+                        />
+                        <Route
+                            path={basePath+'/Sumedha-MS'}
+                            element={<SumedhaMSTemplate data={sumedha_ms} showSaveButton={false}/>}
                         />
                     </Routes>
                 </BrowserRouter>
