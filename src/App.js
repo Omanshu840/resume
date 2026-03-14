@@ -14,6 +14,7 @@ import { mba_resume } from './data/mba-resume';
 import MBATemplate from './components/mba';
 import SumedhaMSTemplate from './components/sumedha-ms';
 import { sumedha_ms } from './data/sumedha-ms';
+import ATSResume from './components/template3/ATSResume';
 
 const PARSE_APPLICATION_ID = 'il2ZrwdroDrghevfubRT5U3BVBKSJhoNuMdrTXdn';
 const PARSE_HOST_URL = 'https://parseapi.back4app.com/';
@@ -63,6 +64,10 @@ const App = () => {
                         <Route
                             path={basePath+'/Sumedha-MS'}
                             element={<SumedhaMSTemplate data={sumedha_ms} showSaveButton={false}/>}
+                        />
+                        <Route
+                            path={basePath+'/ATSResume'}
+                            element={<ATSResume/>}
                         />
                     </Routes>
                 </BrowserRouter>

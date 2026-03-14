@@ -1,0 +1,99 @@
+{
+    "name": "Omanshu Mahawar",
+    "role": "Senior Software Engineer",
+    "contact": {
+        "email": "omahawar840@gmail.com",
+        "phone": "+918209104660",
+        "website": "omanshu840.github.io",
+        "linkedIn": "linkedin.com/in/omanshumahawar"
+    },
+    "experience": [
+        {
+            "position": "Senior Software Engineer",
+            "company": "Visa Inc",
+            "startDate": "Mar 2024",
+            "endDate": "Present",
+            "location": "Bangalore, India",
+            "highlights": [
+                "Led and mentored a 6-member scrum team, streamlining workflows and fostering collaboration to reduce sprint spillovers by 20% while delivering secure backend services and payment features for Authorize.NET 2.0.",
+                "Served as Primary Technical Lead for mission-critical ASP.NET services and REST APIs, achieving 99.99% uptime while upholding stringent security and scalability standards."
+            ]
+        },
+        {
+            "position": "Software Engineer",
+            "company": "Visa Inc",
+            "startDate": "Jun 2022",
+            "endDate": "Feb 2024",
+            "location": "Bangalore, India",
+            "highlights": [
+                "Optimized Visa Rapid Onboarding by integrating Eloqua APIs and resolving race conditions in data replication, improving reliability and data consistency.",
+                "Spearheaded development of Authorize.NET 2.0 with a responsive React UI and scalable C# REST controllers, reducing page load times by 40%."
+            ]
+        },
+        {
+            "position": "Software Engineer Intern",
+            "company": "Publicis Sapient",
+            "startDate": "May 2021",
+            "endDate": "Jul 2021",
+            "location": "Bangalore, India",
+            "highlights": [
+                "Enhanced Marriott International’s HVMI Operations Portal with advanced activity logging, enabling 100% traceability for audits and operational decision-making."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "studyType": "B.Tech",
+            "area": "Computer Science and Engineering",
+            "institution":
+                "National Institute of Technology Karnataka, Surathkal",
+            "startDate": "Jul 2018",
+            "endDate": "May 2022",
+            "gpa": "8.73 / 10",
+            "location": "Mangalore, India"
+        },
+        {
+            "studyType": "High School Diploma",
+            "area": "Science and Mathematics with Information Practices",
+            "institution": "Jankidevi Public School, Jaipur",
+            "startDate": "Apr 2016",
+            "endDate": "May 2018",
+            "gpa": "92.8%",
+            "location": "Jaipur, India"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Technical Skills",
+            "keywords": [
+                "Java",
+                "JavaScript",
+                "C#",
+                "HTML",
+                "CSS",
+                "C++",
+                "SQL",
+                "React",
+                "ASP.NET",
+                "Node.js",
+                "Vert.x"
+            ]
+        },
+        {
+            "name": "Leadership & Management",
+            "keywords": [
+                "Team Leadership",
+                "Cross-functional Collaboration",
+                "Strategic Planning",
+                "Mentoring & Coaching"
+            ]
+        },
+        {
+            "name": "Domain Knowledge",
+            "keywords": [
+                "Payment & Finance Systems",
+                "Fraud Prevention & Security"
+            ]
+        }
+    ]
+}
